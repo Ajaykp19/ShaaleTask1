@@ -26,6 +26,7 @@ export default function Access() {
             </div>
             <div className="browse">
                 <a className="nav-link " href="" style={{color: "#154fd6", fontSize: "20px"}}>{a}</a>
+                {/* <a href=""></a> */}
             </div>
         </div>
       </div>
