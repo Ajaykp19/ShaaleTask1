@@ -12,7 +12,8 @@ export default function Header(props) {
     top: "0px",
     bottom: "100%",
     margin: "0",
-    padding: "0"
+    padding: "0",
+    zIndex: "1"
   };
   const handleMouseEnter = (event) => {
     // console.log(event.target.innerHTML);
@@ -79,7 +80,7 @@ export default function Header(props) {
   return (
     <>
     <div style={pos}>
-    <nav class="navbar py-0">
+    <nav className="navbar py-0">
     <div className="bg-black container-fluid">
     <img src={shaaleLogo} alt="Shaale-Logo" height="50px"/>
     <div className="d-flex-end">
